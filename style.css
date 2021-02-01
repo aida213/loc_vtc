@@ -1,0 +1,183 @@
+*{
+    text-align: center;
+    
+}
+
+header{
+    border: 0.5px solid;
+    background: url(background.jpg);
+    background-position: 20% 80%;
+    }
+
+    form{
+         margin-bottom: 200px;
+    }
+
+
+footer{display: flex;
+    width: auto;
+    justify-content: space-between;
+    }
+    
+    footer img{
+        width: 200px;
+        height: 200px;
+        width: auto;
+    }
+    
+    .adresse_contact{
+      display: flex;
+      justify-content: space-between;
+      width: auto;
+    }
+    
+  
+
+
+@media (max-width: 576px){
+
+
+
+    label{
+    background-color: #fff;
+    }
+
+    form{
+    background-color: rgba(186, 188, 191, 0.5);
+    margin: 20px;
+    text-align: justify;
+    margin-bottom: 150px;
+    margin-top: 100px;
+    padding: 15px;
+    
+    }
+
+    main .row {
+        margin-bottom: 50px;
+    }
+  
+    .navbar{
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    }
+
+    h1 , h4 {
+    color: white;   
+    }
+
+    h1{
+    font-weight: bolder;
+    }
+
+    .taille_formulaire{
+    padding-left: 10px;
+    padding-right: 267px;
+    text-align: left;
+    }
+
+    .date_location{
+    padding-right: 266px;
+    padding-left: 10px;
+    margin-top: 4px;
+    }
+
+    .date_location_fin{
+    padding-right: 290px;
+    padding-left: 10px;
+    margin-top: 5px;
+    }
+
+    input{
+    background: rgba(78, 152, 79, 0.5);
+    border: none;
+    color: white;
+    }
+
+    main input{
+    background-color: #3e903e;
+    border-radius: 5%;
+    }
+
+    main select {
+    border-radius: 5px;
+    }
+
+    h3{
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    }
+
+}
+
+@media (min-width: 576px){
+
+    label{
+    background-color: #fff;
+    }
+
+    form{
+    background-color: rgba(186, 188, 191, 0.5);
+    text-align: justify;
+    }
+
+    .formulaire_medium{
+    display: flex;
+    }
+        
+    main .row {
+    margin-bottom: 50px;
+    }
+        
+    .navbar{
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    }
+        
+    h1 , h4 {
+    color: white;
+    }
+
+    h1{
+    font-weight: bolder;
+    }
+        
+    .taille_formulaire{
+    width: 200px;
+    }
+
+    .date_location{
+    width: 200px;
+    }
+
+    .date_location_fin{
+    width: 200px;
+    }
+        
+    input{
+    background: rgba(78, 152, 79, 0.5);
+    border: none;
+    color: white;
+    }
+        
+    main input{
+    background-color: #3e903e;
+    border-radius: 5%;
+    }
+        
+    main select {
+    border-radius: 5px;
+    }
+        
+    h3{
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    }
+    
+}
+
+
+
